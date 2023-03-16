@@ -1,0 +1,293 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Trirong:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+:root {
+    --clr-primary:#fff;
+    --clr-secondary:#000000;
+
+    --ff-primary:'Trirong', sans serif;
+    --ff-secondary:'Work Sans', sans serif;
+
+    
+    --fs-300:0.625rem; 
+    --fs-400:0.6875rem;
+    --fs-500:0.8125rem;
+    --fs-600:1.5rem;
+
+
+    --fw-regular:400;
+    --fw-regular-2:500;
+    --fw-semi-bold:600;
+    --fw-bold:700;
+
+    --clr-primary-text:hsla(0, 0%, 13%, 1);
+    --clr-secondary-text:hsla(0, 0%, 13%, 0.4);
+    --clr-accent-text:hsla(0, 0%, 13%, 0.7);
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    width: 595px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+}
+
+.my-name {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-600);
+    font-weight: var(--fw-bold);
+    color: var(--clr-primary-text);    
+}
+
+.my-names {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-600);
+    font-weight: var(--fw-bold);
+    color: var(--clr-primary-text);
+}
+
+.my-title {
+    font-size: var(--fs-300);
+    font-weight: var(--fw-regular);
+    font-family: var(--ff-secondary);
+    padding-top: 13px;
+    padding-bottom: 7px;
+    color: var(--clr-secondary-text);
+}
+
+.my-text {
+    font-size: var(--fs-400);
+    font-weight: var(--fw-regular);
+    font-family: var(--ff-secondary);
+    line-height: 17px;
+    color: var(--clr-accent-text);
+}
+
+.info-class {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-500);
+    font-weight: var(--fw-bold);
+    padding-bottom: 25px;
+    padding-top: 40px;
+    color: black;
+}
+
+.date-item {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-400);
+    font-weight: var(--fw-regular-2);
+}
+
+.item-info {
+    font-family: var(--ff-secondary);
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-400);
+    line-height: 20px;
+}
+
+.specilizing-list {
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-400);
+    font-weight: var(--fw-regular);
+    line-height: 17px;
+    list-style: none;
+    color: var(--clr-accent-text);
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+    flex-direction: column;
+}
+
+
+.projects {
+    margin-top: 55px;
+    margin-bottom: 40px;
+}
+
+.title-2 {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-400);
+    font-weight: var(--fw-semi-bold);
+}
+
+.header {
+    display: flex;
+    
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects {
+    display: flex;
+    background: var(--clr-secondary);
+    width: 515px;
+    height: 194px;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.project-box {
+    width: 114px;
+    height: 114px;
+    background-color: var(--clr-primary);
+}
+
+.list-item__rating {
+    list-style: none;
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-300);
+    font-weight: var(--fw-regular);
+    color: var(--clr-accent-text);
+}
+
+.list-item__text {
+    list-style-type: square;
+    font-family: var(--ff-secondary);
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-400);
+    padding-bottom: 10px;
+    
+}
+
+.row-profile {
+   display: flex;
+   justify-content: space-between;
+    width: 160px;
+}
+
+.row-profile div b, .row-profile div {
+    padding-bottom: 5px;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.active-projects__count {
+    width: 45px;
+    height: 25px;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-600);
+    font-weight: var(--fw-bold);
+}
+
+.finished-projects__count {
+    width: 45px;
+    height: 25px;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-600);
+    font-weight: var(--fw-bold);
+}
+
+.happy-clients__count {
+    width: 45px;
+    height: 25px;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-600);
+    font-weight: var(--fw-bold);
+}
+
+.active-projects__title {
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-semi-bold);
+    font-size: var(--fs-400);
+    width: 82px;
+    height: 18px;
+}
+
+.finished-projects__title {
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-semi-bold);
+    font-size: var(--fs-400);
+    width: 96px;
+    height: 18px;
+}
+
+.happy-clients__title {
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-semi-bold);
+    font-size: var(--fs-400);
+    width: 78px;
+    height: 18px;
+    
+}
+
+.project-box {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 8px
+}
+
+.last-page {
+    display: flex;
+}
+
+.example1 {
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-semi-bold);
+    font-size: var(--fs-400);
+    line-height: 18px;
+}
+
+.example2 {
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-semi-bold);
+    font-size: var(--fs-400);
+    line-height: 18px;
+}
+
+.my-grade__date {
+    font-family: var(--ff-secondary);
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-300);
+    color: var(--clr-accent-text);
+    line-height: 17px;
+}
+
+.my-work__date {
+    font-family: var(--ff-secondary);
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-300);
+    color: var(--clr-accent-text);
+    line-height: 17px;
+}
+
+.text1 {
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-400);
+    font-weight: var(--fw-regular);
+    line-height: 18px;
+}
+
+.text2 {
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-400);
+    font-weight: var(--fw-regular);
+    line-height: 18px;
+}
+
+.education-experience-title {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-500);
+    font-weight: var(--fw-bold);
+    padding-bottom: 24px;
+}
